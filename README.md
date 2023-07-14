@@ -46,6 +46,7 @@ As cores utilizadas nesse projeto são:
 |#C3514E | #E6BAB7 | #F79747|#0C8040 | #9ABB59 |#9ECCB3|
 | ![adicionar desc](https://github.com/afonsosr2/dataviz-graficos-composicao-relacionamento/blob/638632b27146722cb9589f502a3a444a4eeac717/imagens/paleta_cores//VERMELHO1.png?raw=true) |![adicionar desc](https://github.com/afonsosr2/dataviz-graficos-composicao-relacionamento/blob/638632b27146722cb9589f502a3a444a4eeac717/imagens/paleta_cores/VERMELHO2.png?raw=true)|![adicionar desc](https://github.com/afonsosr2/dataviz-graficos-composicao-relacionamento/blob/638632b27146722cb9589f502a3a444a4eeac717/imagens/paleta_cores/LARANJA1.png?raw=true)| ![adicionar desc](https://github.com/afonsosr2/dataviz-graficos-composicao-relacionamento/blob/638632b27146722cb9589f502a3a444a4eeac717/imagens/paleta_cores/VERDE1.png?raw=true) |![adicionar desc](https://github.com/afonsosr2/dataviz-graficos-composicao-relacionamento/blob/638632b27146722cb9589f502a3a444a4eeac717/imagens/paleta_cores/VERDE2.png?raw=true)|![adicionar desc](https://github.com/afonsosr2/dataviz-graficos-composicao-relacionamento/blob/638632b27146722cb9589f502a3a444a4eeac717/imagens/paleta_cores/VERDE3.png?raw=true)|
 
+&nbsp;
 
 ## Visualizações que exploraremos
 
@@ -58,36 +59,36 @@ Na imagem abaixo, apresentamos um diagrama com diversos tipos de **visualizaçã
 
 ![Diagrama de Visualização de Dados (Andrew Abela - Traduzido por Afonso Rios)](https://github.com/alura-cursos/dataviz-graficos/blob/master/imagens/Tipos_Graficos/Diagrama%20de%20Visualiza%C3%A7%C3%A3o%20de%20Dados%20(Andrew%20Abela%20-%20Traduzido%20por%20Afonso%20Rios).png?raw=true)
 
-Para este curso focamos nos subgrupos da Comparação e Distribuição, levando em conta as observações que gostaríamos de apresentar em nosso portfólio.
+Para este curso focamos nos subgrupos da Composição e Relacionamento, levando em conta as observações que gostaríamos de apresentar em nosso portfólio.
 
-### Gráficos de Comparação
+### Gráficos de Composição
 
-Neste projeto, vamos explorar diversos gráficos de comparação dentre eles:
+Neste projeto, vamos explorar diversos gráficos de composição dentre eles:
 
-- Gráficos de Colunas
-- Gráficos de Barras
+- Gráficos de Setores (Pizza e Rosca)
+- Gráficos de Cascata
+- Gráficos de Colunas Agrupadas
 - Gráficos de Barras e Colunas Empilhadas
-- Gráficos de Linhas
+- Gráficos de Áreas
+- Gráficos de Inclinação
+- Treemap (Gráfico de Árvore)
 
-### Gráficos de Distribuição
+### Gráficos de Relacionamento
 
-Neste projeto, vamos explorar diversos gráficos de distribuição dentre eles:
+Neste projeto, vamos explorar diversos gráficos de relacionamento dentre eles:
 
-- Histograma de Colunas
-- Histograma de Linhas
-- Gráficos de Densidade
-- Boxplot
-- Violin Plot
-- Gráficos de Dispersão
+- Gráficos de Dispersão com linha de tendência
+- Gráficos de Dispersão com cores
+- Gráficos de Bolhas
 
 ## Gráficos Produzidos
 
-Para verificar um resumo com os principais gráficos gerados ao longo curso clique nesse [link](https://github.com/alura-cursos/dataviz-graficos/blob/b962a59fd26aa9e0feb8eb964d08cda99d7d5780/Dataviz_Gr%C3%A1ficos_(gr%C3%A1ficos_produzidos).ipynb)
+Para verificar um resumo com os principais gráficos gerados ao longo curso clique nesse [link](https://github.com/afonsosr2/dataviz-graficos-composicao-relacionamento/blob/907bdb4a06540383d75807e5453754faf205d351/Data_Visualization_gr%C3%A1ficos_de_composi%C3%A7%C3%A3o_e_relacionamento_(gr%C3%A1ficos_produzidos).ipynb)
 
 ## Conclusões
 
-Esse curso teve como objetivo apresentar os diferentes tipos de visualização de dados e como escolher qual é o mais adequado para representar as análises de acordo com as perguntas e demandas requisitadas para o problema. Durante o curso, você aprendeu a criar gráficos de comparação e distribuição dos dados partindo do uso das bibliotecas mais utilizadas em Python, personalizar os gráficos e adicionar outros recursos visuais como anotações, destaques, legenda de dados e outras técnicas de visualização. 
+Esse curso teve como objetivo apresentar os diferentes tipos de visualização de dados e como escolher qual é o mais adequado para representar as análises de acordo com as perguntas e demandas requisitadas para o problema. Durante o curso, você aprendeu a criar gráficos de composição e relacionamento dos dados partindo do uso das bibliotecas mais utilizadas em Python, personalizar os gráficos e adicionar outros recursos visuais como anotações, destaques, legenda de dados e outras técnicas de visualização. 
 
-Ao final do curso, você será capaz de gerar visualizações personalizadas e voltadas ao tipo de público que você deseja.	Ainda exploraremos os outros subgrupos com mais visualizações e técnicas para apresentar seus dados a seu público.
+Ao final do curso, você será capaz de gerar visualizações personalizadas e voltadas ao tipo de público que você deseja.	
 
 Sinta-se à vontade para fazer o fork desse projeto e construir o seu portfólio 😊
