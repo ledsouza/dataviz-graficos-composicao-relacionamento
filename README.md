@@ -1,4 +1,4 @@
-# Data Visualization: gráficos de comparação e distribuição
+# Data Visualization: gráficos de composição e relacionamento
 
 Boas-vindas a mais um curso de **visualização de dados** da Alura! 
 
@@ -15,13 +15,8 @@ Neste curso, vamos construir um portfólio com as análises de duas bases de dad
 > Bases de dados:
 
 <ol> 
-  <li> Vendas de uma rede de lojas de departamentos que opera em todo Brasil</li>
-  <li> Distribuição de volumes e medidas de produtos de uma empresa de itens de limpeza
-    <ol> 
-      <li> Volume de um amaciante de 1L em um total de 1000 amostras medidas.</li>
-      <li> Medidas de altura, comprimento e largura de uma caixa de sabão em pó em um total de 1000 amostras medidas</li>
-    </ol>
-  </li>
+  <li> Tabela com os PIBs (Produto Interno Bruto) dos estados brasileiros no período de 2002 - 2020</li>
+  <li> Tabela com a pontuação do IDEB (Índice de Desenvolvimento da Educação Básica) das escolas à nivel nacional</li>
 </ol>
 
 ## Paleta de Cores
@@ -29,27 +24,28 @@ Neste curso, vamos construir um portfólio com as análises de duas bases de dad
 Como sugestão para escolha da paleta de cores para o seu projeto existem sites como o [Coolor](https://coolors.co/palettes/trending) ou [imagecolorpicker](https://imagecolorpicker.com/).
 As cores utilizadas nesse projeto são: 
 
-|Azul|||||
-|------|------|------|------|------|
-| AZUL1 |AZUL2 |AZUL3 |AZUL4 |AZUL5 |
-|#03045e | #0077b6 | #00b4d8| #90e0ef | #CDDBF3 |
-|![adicionar desc](https://github.com/alura-cursos/dataviz-graficos/blob/master/imagens/AZUL1.png?raw=true)|![adicionar desc](https://github.com/alura-cursos/dataviz-graficos/blob/master/imagens/AZUL2.png?raw=true)|![adicionar desc](https://github.com/alura-cursos/dataviz-graficos/blob/master/imagens/AZUL3.png?raw=true)|![adicionar desc](https://github.com/alura-cursos/dataviz-graficos/blob/master/imagens/AZUL4.png?raw=true)|![adicionar desc](https://github.com/alura-cursos/dataviz-graficos/blob/master/imagens/AZUL5.png?raw=true)|
+|Azul||||||
+|------|------|------|------|------|------|
+| AZUL1 |AZUL2 |AZUL3 |AZUL4 |AZUL5 |AZUL6 |
+|#174A7E | #4A81BF | #6495ED| #2596be | #94AFC5 | #CDDBF3 |
+|![adicionar desc](https://github.com/afonsosr2/dataviz-graficos-composicao-relacionamento/blob/638632b27146722cb9589f502a3a444a4eeac717/imagens/paleta_cores/AZUL1.png?raw=true)|![adicionar desc](https://github.com/afonsosr2/dataviz-graficos-composicao-relacionamento/blob/638632b27146722cb9589f502a3a444a4eeac717/imagens/paleta_cores/AZUL2.png?raw=true)|![adicionar desc](https://github.com/afonsosr2/dataviz-graficos-composicao-relacionamento/blob/638632b27146722cb9589f502a3a444a4eeac717/imagens/paleta_cores/AZUL3.png?raw=true)|![adicionar desc](https://github.com/afonsosr2/dataviz-graficos-composicao-relacionamento/blob/638632b27146722cb9589f502a3a444a4eeac717/imagens/paleta_cores/AZUL4.png?raw=true)|![adicionar desc](https://github.com/afonsosr2/dataviz-graficos-composicao-relacionamento/blob/638632b27146722cb9589f502a3a444a4eeac717/imagens/paleta_cores/AZUL5.png?raw=true)|![adicionar desc](https://github.com/afonsosr2/dataviz-graficos-composicao-relacionamento/blob/638632b27146722cb9589f502a3a444a4eeac717/imagens/paleta_cores/AZUL6.png?raw=true) |
 
 &nbsp;
 
-|Cinza|||||
-|------|------|------|------|------|
-| CINZA1 |CINZA2 |CINZA3 |CINZA4 |CINZA5|
-|#212529 | #495057| #adb5bd | #dee2e6| #f8f9fa |
-| ![adicionar desc](https://github.com/alura-cursos/dataviz-graficos/blob/master/imagens/CINZA1.png?raw=true)  |![adicionar desc](https://github.com/alura-cursos/dataviz-graficos/blob/master/imagens/CINZA2.png?raw=true) |![adicionar desc](https://github.com/alura-cursos/dataviz-graficos/blob/master/imagens/CINZA3.png?raw=true) |![adicionar desc](https://github.com/alura-cursos/dataviz-graficos/blob/master/imagens/CINZA4.png?raw=true) |![adicionar desc](https://github.com/alura-cursos/dataviz-graficos/blob/master/imagens/CINZA5.png?raw=true)|
+|Cinza||||||
+|------|------|------|------|------|------|
+| CINZA1 |CINZA2 |CINZA3 |CINZA4 |CINZA5|BRANCO|
+|#231F20 | #414040| #555655 | #A6A6A5| #BFBEBE |#FFFFFF|
+| ![adicionar desc](https://github.com/afonsosr2/dataviz-graficos-composicao-relacionamento/blob/638632b27146722cb9589f502a3a444a4eeac717/imagens/paleta_cores/CINZA1.png?raw=true)  |![adicionar desc](https://github.com/afonsosr2/dataviz-graficos-composicao-relacionamento/blob/638632b27146722cb9589f502a3a444a4eeac717/imagens/paleta_cores/CINZA2.png?raw=true) |![adicionar desc](https://github.com/afonsosr2/dataviz-graficos-composicao-relacionamento/blob/638632b27146722cb9589f502a3a444a4eeac717/imagens/paleta_cores/CINZA3.png?raw=true) |![adicionar desc](https://github.com/afonsosr2/dataviz-graficos-composicao-relacionamento/blob/638632b27146722cb9589f502a3a444a4eeac717/imagens/paleta_cores/CINZA4.png?raw=true) |![adicionar desc](https://github.com/afonsosr2/dataviz-graficos-composicao-relacionamento/blob/638632b27146722cb9589f502a3a444a4eeac717/imagens/paleta_cores/CINZA5.png?raw=true)|![adicionar desc](https://github.com/afonsosr2/dataviz-graficos-composicao-relacionamento/blob/638632b27146722cb9589f502a3a444a4eeac717/imagens/paleta_cores/BRANCO.png?raw=true)|
 
 &nbsp;
 
-|Misto|||||
-|------|------|------|------|------|
-| VERMELHO1 |LARANJA1 |AMARELO1 | VERDE1 |VERDE2 |
-|#e76f51 | #f4a261 | #e9c46a |#0C8040 | #4c956c |#2a9d8f|
-| ![adicionar desc](https://github.com/alura-cursos/dataviz-graficos/blob/master/imagens/VERMELHO1.png?raw=true) |![adicionar desc](https://github.com/alura-cursos/dataviz-graficos/blob/master/imagens/LARANJA1.png?raw=true)|![adicionar desc](https://github.com/alura-cursos/dataviz-graficos/blob/master/imagens/AMARELO1.png?raw=true)| ![adicionar desc](https://github.com/alura-cursos/dataviz-graficos/blob/master/imagens/VERDE1.png?raw=true) | ![adicionar desc](https://github.com/alura-cursos/dataviz-graficos/blob/master/imagens/VERDE2.png?raw=true) |
+|Vermelho|||Verde|||
+|------|------|------|------|------|------|
+| VERMELHO1 |VERMELHO2 |LARANJA1 | VERDE1 |VERDE2 | VERDE3 |
+|#C3514E | #E6BAB7 | #F79747|#0C8040 | #9ABB59 |#9ECCB3|
+| ![adicionar desc](https://github.com/afonsosr2/dataviz-graficos-composicao-relacionamento/blob/638632b27146722cb9589f502a3a444a4eeac717/imagens/paleta_cores//VERMELHO1.png?raw=true) |![adicionar desc](https://github.com/afonsosr2/dataviz-graficos-composicao-relacionamento/blob/638632b27146722cb9589f502a3a444a4eeac717/imagens/paleta_cores/VERMELHO2.png?raw=true)|![adicionar desc](https://github.com/afonsosr2/dataviz-graficos-composicao-relacionamento/blob/638632b27146722cb9589f502a3a444a4eeac717/imagens/paleta_cores/LARANJA1.png?raw=true)| ![adicionar desc](https://github.com/afonsosr2/dataviz-graficos-composicao-relacionamento/blob/638632b27146722cb9589f502a3a444a4eeac717/imagens/paleta_cores/VERDE1.png?raw=true) |![adicionar desc](https://github.com/afonsosr2/dataviz-graficos-composicao-relacionamento/blob/638632b27146722cb9589f502a3a444a4eeac717/imagens/paleta_cores/VERDE2.png?raw=true)|![adicionar desc](https://github.com/afonsosr2/dataviz-graficos-composicao-relacionamento/blob/638632b27146722cb9589f502a3a444a4eeac717/imagens/paleta_cores/VERDE3.png?raw=true)|
+
 
 ## Visualizações que exploraremos
 
