@@ -83,7 +83,7 @@ Neste projeto, vamos explorar diversos gráficos de relacionamento dentre eles:
 
 ## Gráficos Produzidos
 
-Para verificar um resumo com os principais gráficos gerados ao longo curso clique nesse [link](https://github.com/afonsosr2/dataviz-graficos-composicao-relacionamento/blob/907bdb4a06540383d75807e5453754faf205d351/Data_Visualization_gr%C3%A1ficos_de_composi%C3%A7%C3%A3o_e_relacionamento_(gr%C3%A1ficos_produzidos).ipynb)
+Para verificar um resumo com os principais gráficos gerados ao longo curso clique nesse [link](https://github.com/afonsosr2/dataviz-graficos-composicao-relacionamento/blob/main/Data_Visualization_gr%C3%A1ficos_de_composi%C3%A7%C3%A3o_e_relacionamento_(gr%C3%A1ficos_produzidos).ipynb)
 
 ## Conclusões
 
