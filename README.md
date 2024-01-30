@@ -2,6 +2,15 @@
 
 O objetivo deste projeto é utilizar a linguagem Python na análise de dados por meio da agregação de recursos visuais, recorrendo a gráficos como ferramentas de exploração e apresentação dos dados ao seu público.
 
+
+| :books: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Data Visualization: gráficos de composição e relacionamento**
+| :label: Tecnologias | python, pandas, plotly, matplotlib, seaborn
+
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![](https://vitrinedev.s3.amazonaws.com/Diagrama+de+Visualiza%C3%A7%C3%A3o+de+Dados+(Andrew+Abela+-+Traduzido+por+Afonso+Rios).png#vitrinedev)
+
 ## Introdução
 
 Neste projeto, são análisadas duas bases de dados diferentes, explorando cada uma e respondendo aos questionamentos levantados em torno de seus dados. Todas as bases estão no formato CSV e podem ser acessadas por meio do Github.
